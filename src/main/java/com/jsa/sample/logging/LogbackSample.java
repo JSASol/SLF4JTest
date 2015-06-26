@@ -22,5 +22,8 @@ public class LogbackSample {
     logger.info("Info");
     logger.debug("Debug");
     logger.trace("Trace");
+    
+    OtherClass other = new OtherClass();
+    other.log();
   }
 }
