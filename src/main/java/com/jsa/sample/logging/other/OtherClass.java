@@ -1,4 +1,4 @@
-package com.jsa.sample.logging;
+package com.jsa.sample.logging.other;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,8 +8,7 @@ public class OtherClass {
   private Logger logger;
 
   public OtherClass(){
-    logger = LoggerFactory.getLogger(OtherClass.class);    
-    logger.info("Other class created.");
+    logger = LoggerFactory.getLogger(OtherClass.class);
   }
   
   public void log(){

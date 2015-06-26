@@ -2,6 +2,8 @@ package com.jsa.sample.logging;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.jsa.sample.logging.other.OtherClass;
+
 /**
  * SLF4J + Logback Sample Program
  */
